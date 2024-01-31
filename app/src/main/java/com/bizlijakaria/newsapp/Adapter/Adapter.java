@@ -35,6 +35,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
        String Image=modelList.get(position).getImage();
        String Title=modelList.get(position).getTitle();
        String publish=modelList.get(position).getPublishat();
+       String url=modelList.get(position).getUrl();
 
        holder.setData(Image,Title,publish);
     }
