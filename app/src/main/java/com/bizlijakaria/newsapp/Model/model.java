@@ -4,22 +4,17 @@ public class model {
     String Image;
     String title;
     String publishat;
-    String url;
 
-    public model(String image, String title, String publishat, String url) {
+
+    public model(String image, String title, String publishat) {
         Image = image;
         this.title = title;
         this.publishat = publishat;
-        this.url = url;
+
     }
 
-    public String getUrl() {
-        return url;
-    }
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+
 
     public String getImage() {
         return Image;

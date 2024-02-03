@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -41,4 +42,11 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.android.volley:volley:1.2.1")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("com.github.sparrow007:carouselrecyclerview:1.2.6")
+    implementation(platform("com.google.firebase:firebase-bom:32.7.1"))
+    implementation ("com.google.firebase:firebase-storage:20.3.0")
+    implementation ("com.google.firebase:firebase-firestore:24.10.1")
+
+
+
 }

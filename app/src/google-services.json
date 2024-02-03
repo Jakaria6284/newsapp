@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308475806913",
+    "project_id": "personal-photo-blog",
+    "storage_bucket": "personal-photo-blog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308475806913:android:794a01a371aca6cc4d8040",
+        "android_client_info": {
+          "package_name": "com.bizlijakaria.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRh0dReoUru5JK7nj9hWhoRcz37RDX7zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

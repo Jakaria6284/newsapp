@@ -13,12 +13,13 @@ import com.bizlijakaria.newsapp.Model.model;
 import com.bizlijakaria.newsapp.R;
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
-    List<model>modelList;
+    ArrayList<model> modelList;
 
-    public Adapter(List<model> modelList) {
+    public Adapter(ArrayList<model> modelList) {
         this.modelList = modelList;
     }
 
@@ -32,12 +33,12 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull Adapter.ViewHolder holder, int position) {
-       String Image=modelList.get(position).getImage();
-       String Title=modelList.get(position).getTitle();
-       String publish=modelList.get(position).getPublishat();
-       String url=modelList.get(position).getUrl();
+        String Image=modelList.get(position).getImage();
+        String Title=modelList.get(position).getTitle();
+        String publish=modelList.get(position).getPublishat();
 
-       holder.setData(Image,Title,publish);
+
+        holder.setData(Image,Title,publish);
     }
 
     @Override
